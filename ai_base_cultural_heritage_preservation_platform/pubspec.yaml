@@ -1,0 +1,47 @@
+name: ai_base_cultural_heritage_preservation_platform
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  # permission_handler: ^10.2.0
+
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.1.4
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.2.0
+  vector_math: ^2.1.4
+  flutter_tts: ^3.8.3
+  ar_flutter_plugin: ^0.7.3
+  google_sign_in: ^6.2.1
+  model_viewer_plus: ^1.7.0
+  file_picker: ^10.3.7
+  razorpay_flutter: ^1.4.0
+  http: ^1.6.0
+  url_launcher: ^6.1.12
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/taj1.jpg
+    - assets/raigad.jpg
+    - assets/hampi.jpg
+    - assets/hampi2.jpg
+    - assets/hampi3.jpg
+    - assets/google.png
+    - assets/red_fort.jpg
+    - assets/red_fort2.jpg
+    - assets/red_fort3.jpg
