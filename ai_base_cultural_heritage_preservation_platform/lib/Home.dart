@@ -198,12 +198,19 @@ class _HomeState extends State<Home> {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
-              child: Image.network(
-                image,
-                height: 230,
-                width: double.infinity,
-                fit: BoxFit.cover,
-              ),
+              child: image.startsWith("http")
+    ? Image.network(
+        image,
+        height: 230,
+        width: double.infinity,
+        fit: BoxFit.cover,
+      )
+    : Image.asset(
+        image,
+        height: 230,
+        width: double.infinity,
+        fit: BoxFit.cover,
+      ),
             ),
 
             Container(

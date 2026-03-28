@@ -7,7 +7,7 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
-  # permission_handler: ^10.2.0
+  permission_handler: ^11.0.0
 
   flutter:
     sdk: flutter
@@ -17,14 +17,16 @@ dependencies:
   firebase_storage: ^12.2.0
   vector_math: ^2.1.4
   flutter_tts: ^3.8.3
-  ar_flutter_plugin: ^0.7.3
   google_sign_in: ^6.2.1
   model_viewer_plus: ^1.7.0
   file_picker: ^10.3.7
   razorpay_flutter: ^1.4.0
   http: ^1.6.0
   url_launcher: ^6.1.12
+  intl: ^0.18.1
 
+dependency_overrides:
+  permission_handler_android: ^13.0.1
 
 
 dev_dependencies:
